@@ -6,7 +6,7 @@ class Audio {
         this.fft.setInput(this.mic);
         this.N_BINS = N_BINS;
         console.log(this.mic.getLevel());
-    }
+    } 
 
 
     getSpectrum() {

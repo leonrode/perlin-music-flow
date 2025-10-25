@@ -35,7 +35,7 @@ class Particle {
     update(bassLevel, midLevel, highLevel) {
         this.angle = noise(this.x * 0.0001, this.z * 0.0001, (millis() - this.initTime) * 0.0001) * 360; // degree mode
 
-        this.radius =  bassLevel * 100;
+        this.radius =  bassLevel * 500;
         const hue = highLevel * 360; // Map 0-1 to 0-360 degrees
         const saturation = 80; // Fixed saturation
         const lightness = 50; // Fixed lightness

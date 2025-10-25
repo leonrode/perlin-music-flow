@@ -2,14 +2,14 @@
 
 let canvas;
 let particles = [];
-const N_PARTICLES = 1000;
+const N_PARTICLES = 3000;
 let frameRateP;
 let audioVolumeP;
 let freqRangeP;
 let audio;
 let audioStarted = false;
 const  N_BINS = 128;
-const MAX_DISTANCE = 5000;
+const MAX_DISTANCE = 10000;
 const bassCutoff = 0.2;
 const midCutoff = 0.55;
 
